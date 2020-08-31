@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+//@import "../fonts/roboto.scss";
+@import "../fonts/roboto/400.scss";
+@import "../fonts/roboto/500.scss";
+@import "../fonts/roboto/700.scss";
+
+html, body {
+    height: 100%; width: 100%;
+    margin: 0; padding: 0;
+    background-color:rgb(235, 235, 235);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.box{
+    width: 300px;
+    margin: 0 auto 48px auto; padding: 0;
+    top: 48px;
+    z-index: 4;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+
+    &:hover, 
+    &:focus {
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    }
+      
+    .photo {
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+        
+        img {
+            height: auto; width: 100%;
+            margin: 0; padding: 0;
+            line-height: 0;
+        }
+
+    }
+
+    .text {
+        background: #ffffff ;
+        padding: 15px;
+        box-sizing: border-box;
+        color: #fffefe;
+        border-radius: 5px;
+        text-shadow: 0 1px 0 #615d5d;
+
+        .price {
+            color: #403a60;
+            margin: 10px 0 0 20px;
+        }
+
+        .name {
+            margin: 10px 0 0 20px;
+            color: #a4493d;
+            line-height: 26px;
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .option {
+            margin: 10px 0 0 20px;
+            color: #a09ac1;
+            line-height: 24px;
+            font-size: 16px;
+        }
+
+        .specifications {
+            margin: 10px 0 0 20px;
+
+            ul {
+                margin: 0; padding: 0;
+                list-style-type: none;
+
+                li {
+                    color: #403a60;
+                    line-height: 24px;
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+
+            }
+
+        }
+
+        .other {
+            height: 60px;
+            margin: 10px 40px 40px 40px; padding: 0;
+            background: #a4493d;
+            color: #fff;
+            line-height: 60px;
+            font-size: 14px;
+            font-weight: 700;
+            text-align: center;
+            text-decoration: none;
+        }
+
+      }
+
+  }
+
+
+

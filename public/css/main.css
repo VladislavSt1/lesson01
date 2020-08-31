@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), local("Roboto-Regular"), url(../fonts/roboto-400-normal.woff2?69eee0b43d46be3ad91ef75a76ea3959) format("woff2"), url(../fonts/roboto-400-normal.woff?58bf8e0bd1dd213bf745e9d748caf175) format("woff"), url(../fonts/roboto-400-normal.ttf?c613ca81d36649b260700f3335d8f579) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Medium"), local("Roboto-Medium"), url(../fonts/roboto-500-normal.woff2?4a34361b26e9896ea1b5065708f8daea) format("woff2"), url(../fonts/roboto-500-normal.woff?6422eac71f54ee5cd007dcf46fc0d22d) format("woff"), url(../fonts/roboto-500-normal.ttf?38aa81d461c299fa9f0cb27726401996) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Bold"), local("Roboto-Bold"), url(../fonts/roboto-700-normal.woff2?15a913e1228cca9b1247b373bdf27e55) format("woff2"), url(../fonts/roboto-700-normal.woff?7bf74824d7a8b3c08fe5956f93e9ce2a) format("woff"), url(../fonts/roboto-700-normal.ttf?1fc6a83d1e366dfe7babb690d33ba6fb) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ebebeb;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.box {
+  width: 300px;
+  margin: 0 auto 48px auto;
+  padding: 0;
+  top: 48px;
+  z-index: 4;
+  background-color: white;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.box:hover,
+.box:focus {
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.box .photo {
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.box .photo img {
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+.box .text {
+  background: #ffffff;
+  padding: 15px;
+  box-sizing: border-box;
+  color: #fffefe;
+  border-radius: 5px;
+  text-shadow: 0 1px 0 #615d5d;
+}
+
+.box .text .price {
+  color: #403a60;
+  margin: 10px 0 0 20px;
+}
+
+.box .text .name {
+  margin: 10px 0 0 20px;
+  color: #a4493d;
+  line-height: 26px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.box .text .option {
+  margin: 10px 0 0 20px;
+  color: #a09ac1;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.box .text .specifications {
+  margin: 10px 0 0 20px;
+}
+
+.box .text .specifications ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.box .text .specifications ul li {
+  color: #403a60;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.box .text .other {
+  height: 60px;
+  margin: 10px 40px 40px 40px;
+  padding: 0;
+  background: #a4493d;
+  color: #fff;
+  line-height: 60px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
